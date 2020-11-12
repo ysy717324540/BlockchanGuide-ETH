@@ -19,6 +19,8 @@ ETH地址：0xd6755E6Ac74dB436370e8a70f04195F8d6Dd6852
 在日常钱包使用的过程中，除普通转账外，我们经常会进行对合约账户的授权操作，比如使用Uniswap时，我们授权某个币可以与某个合约账户进行交互。为避免资产的损失，我们需要了解清楚授权的具体范畴。如TokenPocket钱包中为了避免智能合约作恶，增加了approve时可以设置token授权数量的功能。
 
 
+ ![uni](https://tp-statics.tokenpocket.pro/banner/tokenpocket-20201112165632.png)
+
 ## 创建以太坊钱包
 
 以太坊是智能合约的开创者，它有较为广泛的共识和社区，当前主流数字钱包基本都支持以太坊公链。用户使用钱包可以很便捷地完成以太坊账户创建。
@@ -159,6 +161,8 @@ ETH 及发行在 ETH 公链上的 token，可以在中心化交易所购买，�
 
 目前做的最好的 ETH 去中心化交易所要属 Uniswap 了，在该平台上几乎可以交易所有的 ETH 资产。在 TokenPocket 的推荐 DApp 专区中找到 Uniswap 并打开，然后就可以进行相应 ETH 资产的交易了，还可以使用 TP 钱包自带的闪兑功能来进行 ETH 资产的交易。
 
+![eth](https://tp-statics.tokenpocket.pro/banner/tokenpocket-20201112165619.png)
+
  - 币币闪兑
 通过闪兑功能可以进行ETH链上的token兑换，如ETH 换DAi，或是将ETH兑换为 BTC\TRON\EOS，这样的跨链兑换可以方便不同链上资产之间的流通。
 
@@ -281,13 +285,18 @@ dForce是发行在以太坊上的去中心金融（DeFi）和货币协议平台�
 
 白名单功能为用户更好地使用 DApp 提供了极大的便利，TokenPocket钱包支持白名单（WalletConnect方式）设置，方便用户进行操作。
 
+ ![uni](https://tp-statics.tokenpocket.pro/banner/tokenpocket-20201112165646.png)
+
 ### 以太坊 浏览器使用
 区块链浏览器是浏览区块链信息的主要窗口，每一个区块所记载的内容都可以从区块链浏览器上进行查阅。目前常用的以太坊浏览器有 etherscan 浏览器http://etherscan.io/和 etherchain  浏览器https://www.etherchain.org/
 使用以太坊浏览器可以查询以太坊全网的基础数据:最新区块、交易数量、账户数量、代币数量等；查询账户信息:交易信息、以太坊余额和抵押信息等；还可以直接查询转账、余额、投票权。
 
+ ![uni](https://tp-statics.tokenpocket.pro/banner/tokenpocket-20201112165603.png)
+
 ### 以太坊 钱包排序调整
 很多用户会有多个以太坊账号，自己常用的钱包位置比较靠后，这样使用起来十分不便。钱包排序功能可以轻松解决这一痛点。用户通过对账号拖拉调整钱包账号顺序，把经常使用的账号位置提前，更方便日常钱包切换与资产管理。
 
+ ![uni](https://tp-statics.tokenpocket.pro/banner/tokenpocket-20201112165658.png)
 ### 以太坊 相关资讯获取
 对于以太坊用户来讲，要经常关注以太坊的讯息，以了解以太坊发展最新情况。这些资讯用户可以直接通过以太坊钱包来浏览资讯。例如 TokenPocket钱包，所有关于以太坊的最新消息和快讯和重要文章，都第一时间一站式收录在钱包的快讯和文章频道，优化了用户的阅读体验。
 
@@ -342,41 +351,7 @@ Eth2.0是以太坊的计划升级方案，也可以理解为Eth1.0的替代品�
 作为最早的智能合约公链，以太坊有着最为成熟的开发者生态，功能强大的IDE Remix；简单易用的智能合约开发语言Solidity和开发框架Truffle，广泛使用的NFT协议ERC721，ERC1155；同时也是各种DeFi协议爆发的公链。
 钱包是开发者与用户链接的桥梁，以TokenPocket为例，会提供给开发者兼容多种协议的登录与签名方式，钱包内Webview中内置web3 和 ethereum对象兼容Metamask的web3登录协议，支持WalletConnect的扫码以及移动端浏览器的唤起操作。同时TokenPocket 还为iOS和Android原生APP 提供了Mobile SDK 可以唤起钱包进行登录授权，代币转账以及合约操作等功能。
 
-
-## 区块链钱包导航
-
-### 去中心化钱包
-
-
-
-# 以太坊 钱包知识自测
-
-# 以太坊钱包常见问题
-https://www.yuque.com/tokenpocket/gz8u7f
-
-# 以太坊联系方式
-
-Website：https://ethereum.org
-
-Twitter：https://twitter.com/ethereum
-
-Youtube：https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g
-
-GitHub：https://github.com/ethereum
-
-# 版权申明
-《区块链入门必读之以太坊钱包知多少》，又称为以太坊钱包小白书。由 TokenPocket 联合TokenPocket 社区志愿者（TP 侠：阿华、明观、币范儿）共同撰写，详细介绍了当前以太坊钱包与以太坊生态密切结合的实例，是目前市面上最为详细的以太坊数字钱包科普资料。
-
-1.本文版权归TokenPocket所有。
-2.在征得作者同意的情况下，作品允许非盈利性引用，需要注明并请注明出处和作者，以尊重作者的劳动成果。
-3.出处：https://tp-lab.github.io/BlockchainGuide-ETH/ 作者：TokenPocket。
-4.未经允许，严禁转载。对非法转载者，TokenPocket和作/译者保留采用法律手段追究的权利。
-5.对于本文和本声明以及其修改权、更新权及最终解释权均属TokenPocket。
-6.以上声明的解释权归“TokenPocket”所有。
-
-
 ## ETH钱包分类
-
 ### 去中心化钱包
 
 <!-- 1 -->
@@ -392,62 +367,19 @@ GitHub：https://github.com/ethereum
 </a>
 
 
-<!-- Tronlink -->
-<a class="tp-custom" href="https://www.tronlink.org" target="_blank">
-    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Tronlink.png"/>
-    <div class="tp-content">
-        <h5>Tronlink</h5>
-        <p>https://www.tronlink.org</p>
-    </div>
-</a>
-</main>
-
-
-<!-- 2 -->
-
-<main class="tp-main">
-<!-- imToken -->
-<a class="tp-custom" href="https://token.im" target="_blank">
-    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/ImToken.png"/>
-    <div class="tp-content">
-        <h5>imToken</h5>
-        <p>https://token.im</p>
-    </div>
-</a>
-
-<!-- Cobo金库 -->
-<a class="tp-custom" href="https://cobo.com" target="_blank">
-    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Cobo.png"/>
-    <div class="tp-content">
-        <h5>Cobo金库</h5>
-        <p>https://cobo.com</p>
-    </div>
-</a>
-</main>
-
-<!-- 3 -->
-
-<main class="tp-main">
 <!-- Trust Wallet -->
 <a class="tp-custom" href="https://www.trustwallet.com" target="_blank">
     <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/TrustWallet.png"/>
     <div class="tp-content">
-        <h5>Trustウォレット</h5>
+        <h5>Trust Wallet</h5>
         <p>https://www.trustwallet.com</p>
-    </div>
-</a>
-
-<!-- Huobi -->
-<a class="tp-custom" href="https://www.huobiwallet.com" target="_blank">
-    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/HuobiWallet.png"/>
-    <div class="tp-content">
-        <h5>フォビウォレット（Huobi）</h5>
-        <p>https://www.huobiwallet.com</p>
     </div>
 </a>
 </main>
 
-<!-- 4 -->
+</main>
+
+<!-- 2 -->
 
 <main class="tp-main">
 <!-- Bitpie -->
@@ -460,27 +392,28 @@ GitHub：https://github.com/ethereum
 </a>
 
 
-<!-- Math Wallet -->
-<a class="tp-custom" href="http://www.mathwallet.org" target="_blank">
-    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/MathWallet.png"/>
+<!-- imToken -->
+<a class="tp-custom" href="https://token.im" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/ImToken.png"/>
     <div class="tp-content">
-        <h5>Mathウォレット</h5>
-        <p>http://www.mathwallet.org</p>
+        <h5>imToken</h5>
+        <p>https://token.im</p>
     </div>
 </a>
 </main>
 
-<!-- 5 -->
+<!-- 3 -->
 
 <main class="tp-main">
-<!-- TronWallet -->
-<a class="tp-custom" href="https://www.tronwallet.me" target="_blank">
-    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Tronlink.png"/>
+<!-- Huobi -->
+<a class="tp-custom" href="https://www.huobiwallet.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/HuobiWallet.png"/>
     <div class="tp-content">
-        <h5>TronWallet</h5>
-        <p>https://www.tronwallet.me</p>
+        <h5>Huobi Wallet</h5>
+        <p>https://www.huobiwallet.com</p>
     </div>
 </a>
+
 
 <!-- AToken -->
 <a class="tp-custom" href="https://www.atoken.com" target="_blank">
@@ -492,9 +425,19 @@ GitHub：https://github.com/ethereum
 </a>
 </main>
 
-<!-- 6 -->
+<!-- 4 -->
 
 <main class="tp-main">
+<!-- BPEAL Wallet -->
+<a class="tp-custom" href="https://www.bepal.pro" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/BPEALWallet.png"/>
+    <div class="tp-content">
+        <h5>BPEAL Wallet</h5>
+        <p>https://www.bepal.pro</p>
+    </div>
+</a>
+
+
 <!-- Starteos -->
 <a class="tp-custom" href="https://www.starteos.io" target="_blank">
     <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Starteos.png"/>
@@ -503,19 +446,9 @@ GitHub：https://github.com/ethereum
         <p>https://www.starteos.io</p>
     </div>
 </a>
-
-
-<!-- Infinito -->
-<a class="tp-custom" href="https://www.infinitowallet.io " target="_blank">
-    <img class="tp-logo" src="https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597389439939.svg"/>
-    <div class="tp-content">
-        <h5>Infinito</h5>
-        <p>https://www.infinitowallet.io </p>
-    </div>
-</a>
 </main>
 
-<!-- 7 -->
+<!-- 5 -->
 
 <main class="tp-main">
 <!-- BitKeep -->
@@ -527,7 +460,404 @@ GitHub：https://github.com/ethereum
     </div>
 </a>
 
+
+<!-- MEET.ONE -->
+<a class="tp-custom" href="https://www.meet.one" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Meetone.png"/>
+    <div class="tp-content">
+        <h5>MEET.ONE</h5>
+        <p>https://www.meet.one</p>
+    </div>
+</a>
 </main>
+
+<!-- 6 -->
+
+<main class="tp-main">
+<!-- Tronlink -->
+<a class="tp-custom" href="https://www.tronlink.org" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Tronlink.png"/>
+    <div class="tp-content">
+        <h5>Tronlink</h5>
+        <p>https://www.tronlink.org</p>
+    </div>
+</a>
+
+
+<!-- Lynx -->
+<a class="tp-custom" href="https://lynxwallet.io" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Lynx.png"/>
+    <div class="tp-content">
+        <h5>Lynx</h5>
+        <p>https://lynxwallet.io</p>
+    </div>
+</a>
+</main>
+
+<!-- 7 -->
+
+<main class="tp-main">
+<!-- Scatter -->
+<a class="tp-custom" href="https://get-scatter.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/scatter.png"/>
+    <div class="tp-content">
+        <h5>Scatter</h5>
+        <p>https://get-scatter.com</p>
+    </div>
+</a>
+
+
+<!-- MetaMask -->
+<a class="tp-custom" href="https://metamask.io" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/MetaMask.png"/>
+    <div class="tp-content">
+        <h5>MetaMask</h5>
+        <p>https://metamask.io</p>
+    </div>
+</a>
+</main>
+
+<!-- 8 -->
+
+<main class="tp-main">
+<!-- ENJIN Wallet -->
+<a class="tp-custom" href="https://enjin.io/products/wallet" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/ENJINWallet.png"/>
+    <div class="tp-content">
+        <h5>ENJIN Wallet</h5>
+        <p>https://enjin.io/products/wallet</p>
+    </div>
+</a>
+
+
+<!-- jaxx wallet -->
+<a class="tp-custom" href="https://jaxx.io" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/JaxxWallet.png"/>
+    <div class="tp-content">
+        <h5>jaxx wallet</h5>
+        <p>https://jaxx.io</p>
+    </div>
+</a>
+</main>
+
+<!-- 9 -->
+<main class="tp-main">
+<!-- 块信 -->
+<a class="tp-custom" href="https://chattle.vip/#/" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/dapp/tokenpocket-1576249499924.png"/ width=50>
+    <div class="tp-content">
+        <h5>块信</h5>
+        <p>https://chattle.vip</p>
+    </div>
+</a>
+
+
+<!-- KCASH -->
+<a class="tp-custom" href="https://www.kcash.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/KCASH.png"/>
+    <div class="tp-content">
+        <h5>KCASH</h5>
+        <p>https://www.kcash.com</p>
+    </div>
+</a>
+</main>
+
+
+<!-- 10 -->
+<main class="tp-main">
+<!-- Conibase Wallet -->
+<a class="tp-custom" href="https://www.coinbase.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/ConibaseWallet.png"/>
+    <div class="tp-content">
+        <h5>Coinbase Wallet</h5>
+        <p>https://www.coinbase.com</p>
+    </div>
+</a>
+
+<!-- KCASH -->
+<a class="tp-custom" style="border:none" target="_blank">
+    <!-- <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/KCASH.png"/>
+    <div class="tp-content">
+        <h5>KCASH</h5>
+        <p>https://www.kcash.com</p>
+    </div> -->
+</a>
+</main>
+
+### 中心化钱包
+
+<!-- 1 -->
+
+<main class="tp-main">
+<!-- 币信 -->
+<a class="tp-custom" href="https://bixin.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/bixin.png"/>
+    <div class="tp-content">
+        <h5>币信</h5>
+        <p>https://bixin.com</p>
+    </div>
+</a>
+
+
+<!-- Edge -->
+<a class="tp-custom" href="https://edge.app" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Edge.png"/>
+    <div class="tp-content">
+        <h5>Edge</h5>
+        <p>https://edge.app</p>
+    </div>
+</a>
+</main>
+
+<!-- 2 -->
+
+<main class="tp-main">
+
+
+<!-- Uphold -->
+<a class="tp-custom" href="https://uphold.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Uphold.png"/>
+    <div class="tp-content">
+        <h5>Uphold</h5>
+        <p>https://uphold.com</p>
+    </div>
+</a>
+
+<!-- Conibase Wallet -->
+<a class="tp-custom" style="border:none">
+    <!-- <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/ConibaseWallet.png"/>
+    <div class="tp-content">
+        <h5>Conibase Wallet</h5>
+        <p>https://www.coinbase.com</p> -->
+    <!-- </div> -->
+</a>
+
+</main>
+
+### 硬件钱包
+
+<!-- 1 -->
+
+<main class="tp-main">
+<!-- Ledger -->
+<a class="tp-custom" href="https://www.ledger.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Ledger.png"/>
+    <div class="tp-content">
+        <h5>Ledger</h5>
+        <p>https://www.ledger.com</p>
+    </div>
+</a>
+
+
+<!-- Trezor -->
+<a class="tp-custom" href="https://www.trezor.io" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Trezor.png"/>
+    <div class="tp-content">
+        <h5>Trezor</h5>
+        <p>https://www.trezor.io</p>
+    </div>
+</a>
+</main>
+
+<!-- 2 -->
+
+<main class="tp-main">
+<!-- keep key -->
+<a class="tp-custom" href="https://shapeshift.io/keepkey" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/keepkey.png"/>
+    <div class="tp-content">
+        <h5>keep key</h5>
+        <p>https://shapeshift.io/keepkey</p>
+    </div>
+</a>
+
+
+<!-- 库神(ColdLar） -->
+<a class="tp-custom" href="https://www.coldlar.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/ColdLar.png"/>
+    <div class="tp-content">
+        <h5>库神(ColdLar）</h5>
+        <p>https://www.coldlar.com</p>
+    </div>
+</a>
+</main>
+
+<!-- 3 -->
+
+<main class="tp-main">
+<!-- 比特护盾（BITHD) -->
+<a class="tp-custom" href="https://bithd.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/BITHD.png"/>
+    <div class="tp-content">
+        <h5>比特护盾（BITHD)</h5>
+        <p>https://bithd.com</p>
+    </div>
+</a>
+
+
+<!-- imKey -->
+<a class="tp-custom" href="https://imkey.im" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/imKey.png"/>
+    <div class="tp-content">
+        <h5>imKey</h5>
+        <p>https://imkey.im</p>
+    </div>
+</a>
+</main>
+
+<!-- 4 -->
+
+<main class="tp-main">
+<!-- Cobo金库 -->
+<a class="tp-custom" href="https://cobo.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Cobo.png"/>
+    <div class="tp-content">
+        <h5>Cobo金库</h5>
+        <p>https://cobo.com</p>
+    </div>
+</a>
+
+
+<!-- BEPAL Pro S -->
+<a class="tp-custom" href="https://www.bepal.pro/bepal-q" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/BEPALProS.png"/>
+    <div class="tp-content">
+        <h5>BEPAL Pro S</h5>
+        <p>https://www.bepal.pro/bepal-q</p>
+    </div>
+</a>
+</main>
+
+<!-- 5 -->
+
+<main class="tp-main">
+<!-- 华特钱包 -->
+<a class="tp-custom" href="https://www.orientwalt.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/orientwalt.png"/>
+    <div class="tp-content">
+        <h5>华特钱包</h5>
+        <p>https://www.orientwalt.com</p>
+    </div>
+</a>
+
+
+<!-- SafePal-->
+<a class="tp-custom" href="https://safepal.io/" target="_blank">
+    <img class="tp-logo" width=50 src="https://tp-statics.tokenpocket.pro/dapp/tokenpocket-1576591843263.png"/>
+    <div class="tp-content">
+        <h5>SafePal</h5>
+        <p>https://safepal.io/</p>
+    </div>
+</a>
+</main>
+
+
+
+### 中心化&去中心化
+
+<!-- 1 -->
+
+<main class="tp-main">
+<!-- Cobo -->
+<a class="tp-custom" href="https://cobo.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Cobo.png"/>
+    <div class="tp-content">
+        <h5>Cobo</h5>
+        <p>https://cobo.com</p>
+    </div>
+</a>
+
+
+<!-- 库神 -->
+<a class="tp-custom" href="https://www.coldlar.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/ColdLar.png"/>
+    <div class="tp-content">
+        <h5>库神</h5>
+        <p>https://www.coldlar.com</p>
+    </div>
+</a>
+</main>
+
+<!-- 2 -->
+
+<main class="tp-main">
+<!-- 虎符 -->
+<a class="tp-custom" href="https://hoo.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Hoo.png"/>
+    <div class="tp-content">
+        <h5>虎符</h5>
+        <p>https://hoo.com</p>
+    </div>
+</a>
+
+
+<!-- RenrenBit -->
+<a class="tp-custom" href="https://www.renrenbit.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Renrenbit.png"/>
+    <div class="tp-content">
+        <h5>RenrenBit</h5>
+        <p>https://www.renrenbit.com</p>
+    </div>
+</a>
+</main>
+
+<!-- 3 -->
+
+<main class="tp-main">
+<!-- HyperPay -->
+<a class="tp-custom" href="http://www.hyperpay.tech" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Hyperpay.png"/>
+    <div class="tp-content">
+        <h5>HyperPay</h5>
+        <p>http://www.hyperpay.tech</p>
+    </div>
+</a>
+
+
+<!-- Math Wallet -->
+<a class="tp-custom" href="http://www.mathwallet.org" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/MathWallet.png"/>
+    <div class="tp-content">
+        <h5>Math Wallet</h5>
+        <p>http://www.mathwallet.org</p>
+    </div>
+</a>
+</main>
+
+# 以太坊 钱包知识自测
+
+# 以太坊钱包常见问题
+https://www.yuque.com/tokenpocket/gz8u7f
+
+<center>
+
+![QRCode](https://tp-statics.tokenpocket.pro/banner/tokenpocket-20201112161352.png)
+</center>
+
+# 以太坊联系方式
+
+Website：https://ethereum.org
+
+Twitter：https://twitter.com/ethereum
+
+Youtube：https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g
+
+GitHub：https://github.com/ethereum
+
+# 版权申明
+《区块链入门必读之以太坊钱包知多少》，又称为以太坊钱包小白书。由 TokenPocket 联合TokenPocket 社区志愿者（TP 侠：阿华、明观、币范儿）共同撰写，详细介绍了当前以太坊钱包与以太坊生态密切结合的实例，是目前市面上最为详细的以太坊数字钱包科普资料。
+
+1.本文版权归TokenPocket所有。
+
+2.在征得作者同意的情况下，作品允许非盈利性引用，需要注明并请注明出处和作者，以尊重作者的劳动成果。
+
+3.出处：https://tp-lab.github.io/BlockchainGuide-ETH/ 作者：TokenPocket。
+
+4.未经允许，严禁转载。对非法转载者，TokenPocket和作/译者保留采用法律手段追究的权利。
+
+5.对于本文和本声明以及其修改权、更新权及最终解释权均属TokenPocket。
+
+6.以上声明的解释权归“TokenPocket”所有。
 
 
 
