@@ -1,5 +1,4 @@
 ﻿# 区块链入门必读之以太坊钱包知多少
-![banner](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605078547809.png)
 # 前言
 回顾加密数字货币数十年的发展历程，比特币（BTC）是一位披荆斩棘的先驱，它宣扬了去中心化思想所代表的公平与正义，开创了去中心化加密数字货币的先河。中本聪的精神和比特币的设计的是伟大的，但可惜的是，由于比特币在拓展性方面的不足，使得比特币网络难以支持更高级、更复杂的应用，区块链的落地价值也难以得到体现。上述这些问题，也可以在钱包的功能方面得到印证——早期的比特币钱包只有资产管理与挖矿这两项功能。
 
@@ -25,12 +24,12 @@ ETH地址：0xd6755E6Ac74dB436370e8a70f04195F8d6Dd6852
 以太坊是智能合约的开创者，它有较为广泛的共识和社区，当前主流数字钱包基本都支持以太坊公链。用户使用钱包可以很便捷地完成以太坊账户创建。
 
 ![create](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605082288637.png)
-<center>以太坊钱包创建页面</center>TokenPocket 
+<center>TokenPocket以太坊钱包创建页面</center> 
 
 在 TokenPocket （以下简称TP钱包）中创建以太坊钱包时，首先需要输入钱包名称，该名称主要用于在 TP 中标识区分不同的钱包（在TP钱包中可以创建多个以太坊钱包），所以名称是可以自定义的，转账和导出私钥时需要输入钱包密码，它是对私钥的第二重保护。
- 
+
 创建钱包的过程中，一定要保管好私钥，大多数数字钱包为了降低用户使用门槛，一般都提供助记词，助记词一般都是由12个有序英文单词组成的，通过助记词也是可是导入钱包的。
-          
+
 备份助记词就像备份私钥一样，可以分别抄写在两张纸上然后分地方保管，尽量不要触网，如果一定要在互联网上备份，尽量要处理后再保存，例如插入几个自己熟悉的字母，总之尽量不要将一份完整的助记词保存在互联网上。我们完全不建议用户将私钥、助记词进行网络备份。
 
 ## 导入以太坊钱包
@@ -55,16 +54,20 @@ ETH地址：0xd6755E6Ac74dB436370e8a70f04195F8d6Dd6852
 *钱包知识小课堂——来源[《区块链钱包从入门到精通》][1]*
 
 *关于助记词*
+
 由于私钥不方便记忆，因此出现了助记词，助记词只是私钥的另一种展现形式。一般由12或24个英文单词组成，为了方便国内用户，也有提供汉字版本助记词。只要你记住这些单词，按照顺序在钱包中输入，就能恢复钱包并且进行任意操作。如果别人拿到了你的助记词，就相当于拿到了你的私钥，就可以对你的资产进行掌控了。
 
 *关于Keystore*
+
 Keystore=卡号，**Keystore的本质是加密后的私钥，Keystore必须配合你的钱包密码来使用才有效。** Keystore、私钥、助记词是所有钱包通用的，钱包服务商可能会因为产品设计原因，仅为用户提供其中一种或多种方式，但是如果存在同一方式在某钱包无法正常恢复，则该钱包可能存在一定的问题。
 
 *关于密码*
+
 为了进一步增强安全性，大部分钱包会采取密码的方式对私钥做二次加密。每个钱包的加密方法和存储方式是不一样的。这也是为什么你使用钱包进行交易的时候，总需要进行授权，这背后其实涉及了钱包使用密码进行私钥解密，然后再使用私钥对交易进行签名等复杂的过程。
 
 ## 如何导出以太坊钱包
 对应三种导入方式，我们可以在钱包管理设置中对账号进行助记词、私钥、keystore的导出，导出时需要输入我们创建钱包的密码。
+
 很多新用户经常会因为遗忘自己之前设置的钱包密码，这个时候唯一的办法就是重新导入你的私钥、助记词、或Keystore，设置新的钱包密码。也可以通过助记词和私钥重置密码。去中心化钱包不保存用户的私钥、助记词、Keystore、密码，这在最大程度上保证了用户的资产安全，你的资产由你把握。因此当用户丢失这些信息时，钱包是无法给与任何帮助的，请大家务必保存好！
 
 ![daochu](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605083763867.png)
@@ -86,7 +89,7 @@ Gas Price的常用单位为Gwei，Gwei与ETH的换算关系为1ETH=10^9Gwei，�
 
 ![gas](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605084399195.png)
 
-根据图中描述，我们可以发现，转账的手续费只与Gas Used by Transaction和Gas Price有关。交易手续费的计算公式如下：**交易手续费Fee =实际消耗资源量 Gas Used by Transaction*资源单价Gas** Price。为了方便理解，我们举一个简单的例子：假设你需要寄一个包裹，当地的快递公司是按包裹重量收费，邮寄费用=包裹重量*每公斤邮费，即包裹越重，邮费越高。你可以发现，两者进行对比之后，这些名词都是一一对应的。邮费对应手续费，包裹重量对应使用资源量，每公斤邮费对应资源单价。
+根据图中描述，我们可以发现，转账的手续费只与Gas Used by Transaction和Gas Price有关。交易手续费的计算公式如下：**交易手续费Fee =实际消耗资源量 Gas Used by Transaction\*资源单价Gas** Price。为了方便理解，我们举一个简单的例子：假设你需要寄一个包裹，当地的快递公司是按包裹重量收费，邮寄费用=包裹重量*每公斤邮费，即包裹越重，邮费越高。你可以发现，两者进行对比之后，这些名词都是一一对应的。邮费对应手续费，包裹重量对应使用资源量，每公斤邮费对应资源单价。
 
 ![gas](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605084448161.png)
 
@@ -169,6 +172,7 @@ ETH 及发行在 ETH 公链上的 token，可以在中心化交易所购买，�
 ### 以太坊上的其他Token介绍
 
  - 以太坊-USDT
+ 
 在以太坊上发行的优质数字资产中，USDT 便是其中之一。USDT 是 Tether公司推出的基于稳定价值货币美元（USD）的代币Tether USD（简称USDT），每个Tether USD 也都与美元保持1比1的汇率，因此1美元始终被Tether估价为1美元。（信息来源[Tether官网][3]）
 
 ![usdt](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605086614869.png)
@@ -176,6 +180,7 @@ ETH 及发行在 ETH 公链上的 token，可以在中心化交易所购买，�
 用户可以通过SWIFT电汇美元至Tether公司提供的银行帐户，或通过交易所换取USDT；赎回美元时，反向操作即可。用户也可在交易平台用比特币换取USDT。以太坊-USDT 是 Tether 在以太坊网络上发行 ERC20 代币，目前 Tether 已经在比特币（Omni）、EOS 以及 TRON 等公链上发行了相应版本的 USDT 代币，其中 ETH-USDT 的数量是最多的，也推动了 ETH 公链生态的发展。
 
  - 以太坊 NFT Token
+ 
 NFT全称是：Non-Fungible Token（不可替代的Token），所谓不可替代，就是每一个都是独一无二，相互区别的。传统的ERC20 token可以被称为Fungible token，它们每个之间都是相同的，拥有相同的价值。例如你拥有的 1 ETH 和别人拥有的 1 ETH 是等价的。
  
 其实在很多场景中，token的价值不是等价的。例如游戏中十种道具的价值相互都有区别。再如，我们将一场球赛的门票进行token化后销售，因为不同门票对应不同座位的价值不一样，因此 token之间的价值也不一样。
@@ -187,6 +192,7 @@ ERC721标准详细定义了NFT的接口和特性，ERC1155标准由Enjin提出�
 ### 以太坊 Token交易平台
 
  - Uniswap
+ 
 ETH 以及在以太坊上发行的其他 token，除了可以在币安、火币以及 OKEx 等中心化交易所上进行交易，还可以到 Uniswap 等去中心化交易所上进行交易。
 
  ![uni](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605086785426.png)
@@ -203,26 +209,32 @@ ETH 以及在以太坊上发行的其他 token，除了可以在币安、火币�
 
  - Balancer
 Balancer是一个自动化的投资组合管理程序，是流动性提供者和价格传感器。Balancer颠覆了指数基金的概念：用户无需向投资组合经理支付费，而是从交易员那里收取费用，交易员通过跟随套利机会来重新平衡投资组合。人们可以在Balancer进行ETH和ERC20代币，或ERC20代币间的兑换。
+
 对Balancer感兴趣的用户可以[点击阅读][6]使用教程
 
  - Curve
 curve主要是稳定币间的兑换和BTC-ERC20间的兑换，凭借低交易滑点、低手续费、高收益率和单币种存取等优势在很短的时间内就吸引了大量的用户参与。
+
 对Curve感兴趣的用户可以[点击阅读][7]使用教程
 
  - AAVE
 Aave是一种去中心化协议，可通过存款赚取利息，也可借贷。它是开源且无监管的，也就是说所有人都可以访问其代码。Aave是以太坊区块链上的智能合约生态系统，因此它是完全透明的、可跟踪的，且所有人都可以对其进行审计。用户可以将部分资产存入Aave储备资金池，并从中赚取利息（其回报率要高于大多数传统银行）。若用户有足够的抵押品，还可以从资金池中借用一些资产。与传统银行相比，Aave协议可以让你的资金发挥最大效用。例如，借款人可以在稳定利率和浮动利率之间进行切换，以保持市场优势并获得最佳利率。
+
 对AAVE感兴趣的用户可以[点击阅读][8]使用教程
 
  - Synthetix 
 Synthetix 是基于以太坊构建的合成资产（Synths）的发行协议，在Synthetix中，合成资产包括sBTC（BTC合成资产）、sETH（ETH合成资产）、iBTC（BTC反向资产，即BTC跌则iBTC涨）、iETH、sXAU（黄金合成资产）等等。Synthetix 为 DeFi 利用传统金融资产及更多样、更复杂的交易策略提供了通道。发行合成资产的过程为：先抵押 SNX 生成 sUSD，然后用sUSD 购买合成资产。
+
 对Synthetix感兴趣的用户可以[点击阅读][9]使用教程
 
  - Compound
 Compound是一种基于以太坊区块链的算法货币市场协议，是一种允许用户借贷代币的智能合约。它与你的银行类似，Compound把你的钱借给借款人，并随着时间的推移赚取利息。Compound于今年2月发布称，为实现Compound协议治理流程完全去中心化，开发团队决定发行治理代币「COMP」，创造由代币持有者组织的社群，社区成员可通过提案、表决对协议进行更改，取代目前由开发团队主导的中心化治理方式。
+
 对Compound感兴趣的用户可以[点击阅读][10]使用教程
 
  - dForce
 dForce是发行在以太坊上的去中心金融（DeFi）和货币协议平台，主要产品功能有dForce生息市场，合成型稳定币USDx铸币、稳定资产Swap闪兑和GOLGx数字黄金代币，并在8月3号晚10点正式启动流动性挖矿方案，用户可以通过在生息市场质押dToken和在Uniswap提供相应代币的流动性来进行挖矿。
+
 对dForce感兴趣的用户可以[点击阅读][11]使用教程
 
 # 以太坊钱包使用场景
@@ -265,7 +277,9 @@ dForce是发行在以太坊上的去中心金融（DeFi）和货币协议平台�
 和上文扫码转账类似，对方通过扫描收款二维码即可向自己进行转账。
 
 ### 以太坊 钱包白名单设置
-白名单功能为用户更好地使用 DApp 提供了极大的便利。通常用户在体验 TRON Dapp 时，由于智能合约和用户的操作进行交互， 每次相同操作都需要填写密码，十分不便。白名单功能是针对DApp 内特定的智能合约操作进行免密授权，只需在开启白名单功能时需要输入密码，之后的同一操作均可免输入。
+通常用户在体验DApp时，由于智能合约和用户的操作进行交互， 每次相同操作都需要填写密码，十分不便。白名单功能是针对DApp 内特定的智能合约操作进行免密授权，只需在开启白名单功能时需要输入密码，之后的同一操作均可免输入。（当前只支持WalletConnect）
+
+白名单功能为用户更好地使用 DApp 提供了极大的便利，TokenPocket钱包支持白名单（WalletConnect方式）设置，方便用户进行操作。
 
 ### 以太坊 浏览器使用
 区块链浏览器是浏览区块链信息的主要窗口，每一个区块所记载的内容都可以从区块链浏览器上进行查阅。目前常用的以太坊浏览器有 etherscan 浏览器http://etherscan.io/和 etherchain  浏览器https://www.etherchain.org/
@@ -282,7 +296,11 @@ ENS，是Ethereum Name Service的缩写，中文名字叫“以太坊域名服�
 
 使用以太坊转账时，可以输入对应以太坊域名，钱包会自动查询对应的以太坊地址，即可实现便捷转账。
 
+<center>
+
 ![ens](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605088099236.png)
+
+</center>
 
 ## 以太坊 dapp体验
 ### DeFi与钱包
@@ -307,6 +325,7 @@ DeFi领域中目前已经发展得比较好的应用形式主要有：借贷-Cre
 跨连类：WBTC、renBTC等
 
 TokenPocket钱包支持当下几乎所有热门的ETH DeFi DApp，并针对Uniswap、Balancer等ETH上比较具有代表性和优化空间的DeFi进行了优化，如对推出了汉化版Uniswap、支持国内用户不翻墙即可使用Uniswap、增加Uniswap K线功能、交易行情等。
+<br /><br />
 
 # 以太坊2.0与钱包
 ## 以太坊2.0是什么
@@ -336,7 +355,7 @@ Eth2.0是以太坊的计划升级方案，也可以理解为Eth1.0的替代品�
 # 以太坊钱包常见问题
 https://www.yuque.com/tokenpocket/gz8u7f
 
-<font color=red>以太坊联系方式</font>
+# 以太坊联系方式
 
 Website：https://ethereum.org
 
@@ -355,6 +374,161 @@ GitHub：https://github.com/ethereum
 4.未经允许，严禁转载。对非法转载者，TokenPocket和作/译者保留采用法律手段追究的权利。
 5.对于本文和本声明以及其修改权、更新权及最终解释权均属TokenPocket。
 6.以上声明的解释权归“TokenPocket”所有。
+
+
+## ETH钱包分类
+
+### 去中心化钱包
+
+<!-- 1 -->
+
+<main class="tp-main">
+<!-- TokenPocket -->
+<a class="tp-custom" href="https://www.tokenpocket.pro" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/TokenPocket.png"/>
+    <div class="tp-content">
+        <h5>TokenPocket</h5>
+        <p>https://www.tokenpocket.pro</p>
+    </div>
+</a>
+
+
+<!-- Tronlink -->
+<a class="tp-custom" href="https://www.tronlink.org" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Tronlink.png"/>
+    <div class="tp-content">
+        <h5>Tronlink</h5>
+        <p>https://www.tronlink.org</p>
+    </div>
+</a>
+</main>
+
+
+<!-- 2 -->
+
+<main class="tp-main">
+<!-- imToken -->
+<a class="tp-custom" href="https://token.im" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/ImToken.png"/>
+    <div class="tp-content">
+        <h5>imToken</h5>
+        <p>https://token.im</p>
+    </div>
+</a>
+
+<!-- Cobo金库 -->
+<a class="tp-custom" href="https://cobo.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Cobo.png"/>
+    <div class="tp-content">
+        <h5>Cobo金库</h5>
+        <p>https://cobo.com</p>
+    </div>
+</a>
+</main>
+
+<!-- 3 -->
+
+<main class="tp-main">
+<!-- Trust Wallet -->
+<a class="tp-custom" href="https://www.trustwallet.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/TrustWallet.png"/>
+    <div class="tp-content">
+        <h5>Trustウォレット</h5>
+        <p>https://www.trustwallet.com</p>
+    </div>
+</a>
+
+<!-- Huobi -->
+<a class="tp-custom" href="https://www.huobiwallet.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/HuobiWallet.png"/>
+    <div class="tp-content">
+        <h5>フォビウォレット（Huobi）</h5>
+        <p>https://www.huobiwallet.com</p>
+    </div>
+</a>
+</main>
+
+<!-- 4 -->
+
+<main class="tp-main">
+<!-- Bitpie -->
+<a class="tp-custom" href="https://bitpie.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Bitpie.png"/>
+    <div class="tp-content">
+        <h5>Bitpie</h5>
+        <p>https://bitpie.com</p>
+    </div>
+</a>
+
+
+<!-- Math Wallet -->
+<a class="tp-custom" href="http://www.mathwallet.org" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/MathWallet.png"/>
+    <div class="tp-content">
+        <h5>Mathウォレット</h5>
+        <p>http://www.mathwallet.org</p>
+    </div>
+</a>
+</main>
+
+<!-- 5 -->
+
+<main class="tp-main">
+<!-- TronWallet -->
+<a class="tp-custom" href="https://www.tronwallet.me" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Tronlink.png"/>
+    <div class="tp-content">
+        <h5>TronWallet</h5>
+        <p>https://www.tronwallet.me</p>
+    </div>
+</a>
+
+<!-- AToken -->
+<a class="tp-custom" href="https://www.atoken.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/AToken.png"/>
+    <div class="tp-content">
+        <h5>AToken</h5>
+        <p>https://www.atoken.com</p>
+    </div>
+</a>
+</main>
+
+<!-- 6 -->
+
+<main class="tp-main">
+<!-- Starteos -->
+<a class="tp-custom" href="https://www.starteos.io" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Starteos.png"/>
+    <div class="tp-content">
+        <h5>Starteos</h5>
+        <p>https://www.starteos.io</p>
+    </div>
+</a>
+
+
+<!-- Infinito -->
+<a class="tp-custom" href="https://www.infinitowallet.io " target="_blank">
+    <img class="tp-logo" src="https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597389439939.svg"/>
+    <div class="tp-content">
+        <h5>Infinito</h5>
+        <p>https://www.infinitowallet.io </p>
+    </div>
+</a>
+</main>
+
+<!-- 7 -->
+
+<main class="tp-main">
+<!-- BitKeep -->
+<a class="tp-custom" href="https://www.bitkeep.com" target="_blank">
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Bitkeep.png"/>
+    <div class="tp-content">
+        <h5>BitKeep</h5>
+        <p>https://www.bitkeep.com</p>
+    </div>
+</a>
+
+</main>
 
 
 
