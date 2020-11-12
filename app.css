@@ -68,4 +68,11 @@
     .ask-code {
         text-align: center;
     }
+
+    .mobile-fixed{
+        margin-left: -30px;
+        margin-right: -30px;
+        word-break: break-all;
+        overflow: hidden;
+    }
 }
