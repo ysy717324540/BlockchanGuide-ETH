@@ -195,10 +195,7 @@ ERC721标准详细定义了NFT的接口和特性，ERC1155标准由Enjin提出�
  
 ETH 以及在以太坊上发行的其他 token，除了可以在币安、火币以及 OKEx 等中心化交易所上进行交易，还可以到 Uniswap 等去中心化交易所上进行交易。
 
-<center>
-
 ![uni](https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605086785426.png)
-</center>
 
 2018年11月，Uniswap正式上线，其定位是一个基于以太坊的去中心化交易所（DEX）。DEX虽然在用户资产安全性方面有所提升，但是受限于其资金规模，大多数DEX的资产流动性并不好，交易速度也就成了一个硬伤。为了解决这个问题，Uniswap并未采用主流的订单薄交易系统，而是选择了自动化做市商机制。Uniswap在交易机制上的创新也在DEX领域掀起一股热潮，一大批AMM项目涌现出来。
 
