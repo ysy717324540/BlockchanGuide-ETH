@@ -650,7 +650,7 @@ Eth2.0是以太坊的计划升级方案，也可以理解为Eth1.0的替代品�
 <main class="tp-main">
 <!-- 块信 -->
 <a class="tp-custom" href="https://chattle.vip/#/" target="_blank">
-    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/dapp/tokenpocket-1576249499924.png"/ width=50>
+    <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/dapp/tokenpocket-1576249499924.png" width=50 />
     <div class="tp-content">
         <h5>块信</h5>
         <p>https://chattle.vip</p>

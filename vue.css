@@ -941,8 +941,16 @@ pre:after {
 }
 @media screen and (max-width: 767px) {
     section.cover {
-        background: url(https://tp-statics.tokenpocket.pro/banner/tokenpocket-1605078547809.png) no-repeat !important;
-        background-size: 100% auto !important;
-        height: calc(100vw/0.7) !important;
+        background: url(https://tp-statics.tokenpocket.pro/banner/tokenpocket-20201118164944.png) no-repeat !important;
+        background-size: auto 100% !important;
+        height: calc(100vw/0.56) !important;
     }
+}
+@media only screen and (max-aspect-ratio: 56/100){
+	section.cover {
+		background: url(https://tp-statics.tokenpocket.pro/banner/tokenpocket-20201118164944.png) no-repeat !important;
+		background-size: auto 100% !important;
+		background-position-x: center !important;
+		height: 100vh !important;
+	}
 }
