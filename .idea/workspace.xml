@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93e14423-9246-4adc-87fb-b20293148299" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,14 @@
       <workItem from="1605236366246" duration="8987000" />
       <workItem from="1605493786791" duration="4405000" />
       <workItem from="1605689196713" duration="3479000" />
-      <workItem from="1605693888472" duration="869000" />
+      <workItem from="1605693888472" duration="1730000" />
+      <workItem from="1607668408251" duration="352000" />
+      <workItem from="1607668955974" duration="5000" />
+      <workItem from="1607669561844" duration="4338000" />
+      <workItem from="1607914227519" duration="1004000" />
+      <workItem from="1607999294405" duration="1252000" />
+      <workItem from="1610511246195" duration="1285000" />
+      <workItem from="1614935025904" duration="572000" />
     </task>
     <servers />
   </component>
@@ -84,25 +90,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="181" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605164583826">
+    <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1610512271805">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="385" y="181" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1605164583826" />
-    <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1605528708369">
+    <state x="421" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1610512271805" />
+    <state x="303" y="82" width="672" height="678" key="search.everywhere.popup" timestamp="1614935225194">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="421" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1605528708369" />
-    <state x="142" y="25" key="SettingsEditor" timestamp="1605247892609">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="142" y="25" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1605247892609" />
-    <state x="310" y="88" width="594" height="560" key="find.popup" timestamp="1605690485629">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="310" y="88" width="594" height="560" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1605690485629" />
-    <state x="299" y="172" key="run.anything.popup" timestamp="1605177315494">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="299" y="172" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1605177315494" />
+    <state x="303" y="82" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1614935225194" />
   </component>
 </project>
